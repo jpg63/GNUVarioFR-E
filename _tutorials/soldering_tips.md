@@ -26,6 +26,3 @@ Portez une attention particulière aux connexions de plan de masse telles que:
 {% include tutoimg.md name="groundpin.JPEG" %}
 Ils sont très difficiles à chauffer en raison de la dissipation à haute température. N'hésitez pas à laisser le fer à souder jusqu'à 10 secondes.
 
-Enfin, faites attention que **toutes les soudures au centre de la planche soient aussi plates que possible**. Ceci est nécessaire pour éviter d’endommager la batterie LiPo placée juste sous le PCB :
-{% include tutoimg.md name="batterypcb.JPG" %}
-

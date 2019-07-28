@@ -14,9 +14,9 @@ Le projet GNUVario fourni les fichiers du circuit imprimé pour vous aider à co
 Ils peuvent être téléchargés [ici]({{ '/assets/pcb/gnuvario_pcb_layout.zip' | relative_url }}).
 
 Voici les paramètres à donner à votre fabricant de PCB :
-* largeur : 47 mm ( vous pouvez donner 50 mm )
-* hauteur : 79 mm ( vous pouvez donner 80 mm )
-* épaisseur : 1.2 mm
+* largeur : 
+* hauteur : 
+* épaisseur : 1.6 mm
 
 Cette maquette de circuit imprimé a été réalisée avec [KiCad](http://kicad-pcb.org/) et le projet peut être téléchargé [ici]({{'/assets/pcb/gnuvario_pcb_project.zip' | relative_url }}).
 
@@ -31,7 +31,9 @@ Les composants
 ![Slide switch]({{ '/assets/componants/ATGM336H.JPG' | relative_url }})
 * Resistance 270k ( ae)
 * Resistance 1M (ae)
-* Resistance 1k (ae)
+* 3 x Resistance 1k (ae)
+* Transistor S8050 ou equivalent (2N2222) (ae)
 * Batterie 403070 (ae)
 ![Slide switch]({{ '/assets/componants/battery.jpg' | relative_url }})
+* 4 x Vis à bois 4x20 ou 3.5x20
 

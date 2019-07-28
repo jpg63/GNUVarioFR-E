@@ -1,28 +1,28 @@
 ---
-step: 5
-description: Soudure des plaquettes du bas
+step: 3
+description: Soudure des plaquettes
 ---
 
-Prenez maintenant l’Arduino, le lecteur de carte SD et la carte de charge:
-{% include tutoimg.md name="IMG_6387.JPG" %}
+Prenez maintenant le MPU et le GPS:
+{% include tutoimg.md name="20190727_090758.jpg" %}
+{% include tutoimg.md name="20190727_090715.jpg" %}
 
-Placez la carte Arduino comme sur l’image ci-dessous. **N'appliquez pas trop de force!** Si vous ne pouvez pas insérer la carte, vérifiez s'il y a des pattes pliées.
-{% include tutoimg.md name="IMG_6388.JPG" %}
+Placez les connecteurs du coté des résistances (la partie longue vers le bas).
+{% include tutoimg.md name="20190727_102528b.jpg" %}
 
-Ensuite, placez le lecteur de carte SD et la carte de chargement comme ceci:
-{% include tutoimg.md name="IMG_6389.JPG" %}
+Ensuite, placez le MPU et le GPS contre le PCB comme ceci:
+{% include tutoimg.md name="20190727_103125b.jpg" %}
 
 Assurez-vous que toutes les cartes sont à plat sur le circuit imprimé.
-{% include tutoimg.md name="IMG_6390.JPG" %}
-
-Ne soudez qu'**une** broche de la carte Arduino, vérifiez son emplacement et soudez la broche opposée.
-{% include tutoimg.md name="IMG_6391.JPG" %}
-{% include tutoimg.md name="IMG_6392.JPG" %}
+Ne soudez qu'**une** broche de la carte, vérifiez son emplacement et soudez la broche opposée. 
 
 Souder les autres broches. **Soyez très prudent ! N'oubliez pas certaines d'entre elles**.
-{% include tutoimg.md name="forget.JPG" %}
+{% include tutoimg.md name="20190727_103607b.jpg" %}
 
-Même chose sur le lecteur de carte SD et la carte de charge. Souder une broche, vérifier l'emplacement et souder les autres broches.
-{% include tutoimg.md name="IMG_6396.JPG" %}
-{% include tutoimg.md name="IMG_6397.JPG" %}
+Vous devez maintenant retirer tous les isolants en plastique des têtes de broche. **Restez calme et patient pendant cette étape!** Il est très facile de plier les broches lors de cette opération, ce qui compliquera grandement la prochaine étape. **N'appliquez pas trop de force sur les broches** et essayez de retirer l'isolation verticalement. Si vous trouvez trop difficile de les retirer, essayez de réchauffer le circuit imprimé avec un sèche-cheveux.
+
+Soudez **une** broche de la carte, vérifiez son emplacement et soudez la broche opposée. 
+
+Terminant en Soudant les autres broches. **Soyez très prudent ! N'oubliez pas certaines d'entre elles**.
+{% include tutoimg.md name="20190727_103614b.jpg" %}
 

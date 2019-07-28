@@ -3,27 +3,29 @@ layout: page
 title: Code
 linkdesc: Le code source
 linkmsg: Trouver !
-linktarget: "https://github.com/prunkdump/arduino-variometer"
+linktarget: "https://github.com/jpg63/Gnuvario_for_TTGO-T5"
 ---
 
-Pour compiler le code source GNUVario, vous avez besoin de l’IDE ​​Arduino pouvant être téléchargé [ici](https://www.arduino.cc/en/Main/Software). Commencez par l'installer et assurez-vous que vous pouvez lancer l'éditeur.
+Pour compiler le code source GNUVario-E, vous avez besoin de l’IDE ​​Arduino pouvant être téléchargé [ici](https://www.arduino.cc/en/Main/Software). Commencez par l'installer et assurez-vous que vous pouvez lancer l'éditeur.
 
-Ensuite, vous pouvez récupérer le code source GNUVario.
+Ensuite, vous allez ajouter la gestion des cartes ESP32 dans l'IDE Arduino
 
-Il existe 2 versions
+Allez dans les préférences de l'IDE
 
-- La version **master** : optimisée et écrite par Prunkdump, cette version est la version de production
+![GitHub téléchargement zip]({{ "/assets/code/code11.jpg" | absolute_url }})
 
-- La version **jpg63-version** : version beta écrite par jpg63, cette version reprend la version **master** en apportant de nouvelles fonctionnalités en cours de tests ou sur le point d'être integrées à la version **master**  
+Ajouter l'URL https://dl.espressif.com/dl/package_esp32_index.json aux URL de gestionnaire de cartes supplèmentaire 
+
+Maintenant que l'IDE est configé, vous pouvez récupérer le code source du GNUVario-E.
 
 La méthode simple : télécharger le fichier zip
 ----------------------------------
 
-Le code source peut être téléchargé directement sous forme de fichier zip sur [GitHub](https://github.com/prunkdump/arduino-variometer). Il suffit de cliquer sur **Clone or download** and **Download zip**.
+Le code source peut être téléchargé directement sous forme de fichier zip sur [GitHub](https://github.com/jpg63/Gnuvario_for_TTGO-T5). Il suffit de cliquer sur **Clone or download** and **Download zip**.
 
 ![GitHub download zip]({{ "/assets/code/code1.jpg" | absolute_url }})
 
-Extrayez le zip à l'emplacement de votre choix. Cela va créer un repertoire **arduino-variometer-master**.
+Extrayez le zip à l'emplacement de votre choix. Cela va créer un repertoire **Gnuvario_for_TTGO-T5-master**.
 
 ![GitHub téléchargement zip]({{ "/assets/code/code2.jpg" | absolute_url }})
 
@@ -41,7 +43,7 @@ Installez donc Git et assurez-vous que le dossier **Arduino** de votre répertoi
 
 {% highlight shell_session %}
 ~$ cd Arduino
-~/Arduino$ git clone https://github.com/prunkdump/arduino-variometer.git .
+~/Arduino$ git clone https://github.com/jpg63/Gnuvario_for_TTGO-T5.git .
 ~/Arduino$ git checkout -b myversion 
 {% endhighlight %}
 
@@ -59,24 +61,18 @@ Ainsi, chaque fois que vous souhaitez mettre à jour le code, tapez les commande
 Compiler le code
 -----------------
 
-Lancez maintenant l'IDE Arduino et ouvrez l'esquisse que vous souhaitez compiler. Par exemple, le croquis **variometer.ino**.
+Lancez maintenant l'IDE Arduino et ouvrez l'esquisse que vous souhaitez compiler. Par exemple, le croquis **Gnuvario-E.ino**.
 
 ![GitHub download zip]({{ "/assets/code/code5.jpg" | absolute_url }})
 
-Dans le menu **Outils**, **assurez-vous de choisir la bonne carte**. La plus classique de ce projet est l'**Arduino pro mini** avec le microcontrôleur **ATmega328P 3.3V**.
+Dans le menu **Outils**, **assurez-vous de choisir la bonne carte**. La plus classique de ce projet est l'**ESP32 Dev Module**.
 
 ![GitHub download zip]({{ "/assets/code/code6.jpg" | absolute_url }})
 
-Si vous utilisez le bootloader classique Arduino, il vous suffit de cliquer sur le bouton **téléverser**.
+Il vous suffit de cliquer sur le bouton **téléverser**.
 
 ![GitHub download zip]({{ "/assets/code/code7.jpg" | absolute_url }})
 
-![GitHub download zip]({{ "/assets/code/code8.jpg" | absolute_url }})
-
-Naviguez maintenant dans le dossier de l'esquisse et **renommez** le firmware **without bootloader** en **FIRM.HEX**.
-
-![GitHub download zip]({{ "/assets/code/code9.jpg" | absolute_url }})
-![GitHub download zip]({{ "/assets/code/code10.jpg" | absolute_url }})
 
 
 

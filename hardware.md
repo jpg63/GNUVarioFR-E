@@ -5,3 +5,5 @@ description: Introduction
 ---
 
 Ceci est un tutoriel pour vous aider à construire le variomètre avec des composants spécifiques. Si vous voulez utiliser les vôtres, suivez simplement les schémas donnés sur GitHub.
+
+{% include tutoimg.md name="20190727_090547b.jpg" %}
