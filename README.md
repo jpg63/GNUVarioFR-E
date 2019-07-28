@@ -1,6 +1,6 @@
 Ceci est le site du projet GNUVario-E. Variomètre matériel et source libre et ouvert basé sur la plate-forme ESP32.
 
-https://jpg63.github.io/GNUVarioFR-E
+https://jpg63.github.io/GnuVarioFR-E/
 
 Vous pouvez obtenir le code source ici :
 
