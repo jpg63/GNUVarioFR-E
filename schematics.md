@@ -45,93 +45,82 @@ Donc vous avez besoin ou vous pouvez obtenir :
 Câblage du variomètre :
 ---------------------
 
-Vous avez maintenant votre source d'alimentation **RAW_V** qui fournit plus de 3,3 v et une source d'alimentation régulée **3,3 v**. Vous pouvez maintenant connecter tous les composants suivant ce [schéma] ({{"/assets/schematic.pdf" | absolute_url}}) ou le tableau ci-dessous. **Attention** les numéros de broches ne sont valables que pour les Arduino basés sur la puce Atmega328 (P).
+Vous avez maintenant votre source d'alimentation **5V** qui fournit plus de 3,3 v et une source d'alimentation régulée **3,3 v**. Vous pouvez maintenant connecter tous les composants suivant ce [schéma] ({{"/assets/schematic.pdf" | absolute_url}}) ou le tableau ci-dessous. **Attention** les numéros de broches ne sont valables que pour le TTGO-T5 V1.2.
 
 **The ms5611 and MPU9250 board**
 
-|    ms5611 board  |     Arduino    |  
+|    ms5611 board  |     TTGO-T5    |  
 | :--------------: | :------------: |
-|       SDA        |     SDA (A4)   |
-|       SCL        |     SCL (A5)   |
-|       VCC        |       RAW_V    |
+|       SDA        |        21      |
+|       SCL        |        22      |
+|       VCC        |       3.3v     |
 |       GND        |       GND      |
 
-**haut parleur ou buzzer** (sans amplificateur)
+**haut parleur** 
 
-|     Buzzer           |     Arduino    |  
+|          HP          |     TTGO-T5    |  
 | :------------------: | :------------: |
-|  + -> résistance 120k|       D9       |
-|       -              |       D10      |
+|       +              |       25       |
+|       -              |       GND      |
 
-**Haut parleur ou buzzer** (Avec un amplificateur L9110, voir [datasheet](https://www.elecrow.com/download/datasheet-l9110.pdf) )
+**Ecran E-Paper waveshare 1.54''**
 
-|      Buzzer      |      L9110     |  
-| :--------------: | :------------: |
-|        +         |       OA       |
-|        -         |       OB       |
-
-**Amplificateur L9110** (voir [datasheet](https://www.elecrow.com/download/datasheet-l9110.pdf) )
-
-|      L9110       |      Arduino   |  
-| :--------------: | :------------: |
-|        IA        |       D9       |
-|        IB        |       D10      |
-|        VCC       |       RAW_V    |
-|        GND       |       GND      |
-
-
-**Ecran Nokia 5110**
-
-|    Ecran 5110    |     Arduino                              |  
-| :--------------: | :--------------------------------------: |
-|       SCK        |    SCK (D13)                             |
-|     DIN/MOSI     |    MOSI (D11)                            |
-|       DC         | Situé dans VarioSettings.h ( defaut D4 ) |
-|       CS         | Situé dans VarioSettings.h ( defaut D3 ) |
-|       RST        | Situé dans VarioSettings.h ( defaut D2 ) |
-|       VCC        |     3.3v régulé                          |
-|       GND        |      GND                                 |
+|    Ecran         |     TTGO-T5          |  
+| :--------------: | :------------------: |
+|       SCK        |  14                  |
+|     DIN/MOSI     |  15                  |
+|      MISO        |  2                   |
+|       DC         |  GPIO 17             |
+|       CS         |  GPIO 5              |
+|       RST        |  GPIO 16             |
+|       VCC        |  3.3v régulé         |
+|       GND        |  GND                 |
+|      BUSY        |  GPIO 4              |
 
 **Lecteur carte SD**
 
-|    SD card         |     Arduino                                  |  
-| :----------------: | :------------------------------------------: |
-|       CS           |  Situé dans VarioSettings.h ( defaut A0 )    |
-|       MOSI         |      MOSI (D11)                              |
-|       MISO         |      MISO (D12)                              |
-|       SCLK         |      SCK (D13)                               |
-|     5v or 3.3v     |    RAW_V ou 3.3v régulé                      |
-|       GND          |         GND                                  |
+|    SD card         |     TTGO-T5         |  
+| :----------------: | :-----------------: |
+|       CS           |   13                |
+|       MOSI         |   15                |
+|       MISO         |   2                 |
+|       SCLK         |   14                |
+|     5v or 3.3v     |   3.3v régulé       |
+|       GND          |   GND               |
 
 **Carte GPS**
 
 |    carte GPS     |     Arduino                          |  
 | :--------------: | :----------------------------------: |
-|       TX         |        RX                            |
+|       TX         |        19                            |
 |       RX         |    Tout (pas utilisé actuellement)   |
-|       VCC        |       RAW_V                          |
+|       VCC        |       3.3v                           |
 |       GND        |       GND                            |
 
-**Bluetooth module**
-
-|    Bluetooth     |     Arduino                                     |  
-| :--------------: | :---------------------------------------------: |
-|       RX         |       TX                                        |
-|       TX         |     Toute broche avec des interruptions         |
-|                  |     (non utilisée actuellement)                 | 
-|       VCC        |       RAW_V                                     |
-|       GND        |       GND                                       |
 
 **Diviseur de tension** (270k et 1M résistances en ligne)
 
-|    diviseur de tension       |     Arduino                              |  
-| :--------------------------: | :--------------------------------------: |
-|       Côté 270k              |       Batterie + (RAW_V)                 |
-|       Entre les résistances  | Situé dans VarioSettings.h ( defaut A2 ) |
-|       Côté 1M                |       GND                                |
-                      
+|    diviseur de tension       |     TTGO-T5      |  
+| :--------------------------: | :--------------: |
+|       Côté 270k              |     Batterie +   |
+|       Entre les résistances  |     35           |
+|       Côté 1M                |     GND          |
+                    
+										
+**LED** 
+
+|       Led                    |     TTGO-T5      |  
+| :--------------------------: | :--------------: |
+|                              |     22           |
 
 
+**Boutons** 
+
+|       Bouton                 |     TTGO-T5      |  
+| :--------------------------: | :--------------: |
+|       Bouton A               |     38           |
+|       Bouton B               |     37           |
+|       Bouton C               |     39           |
 
 
 
