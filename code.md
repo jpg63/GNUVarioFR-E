@@ -29,7 +29,7 @@ Extrayez le zip à l'emplacement de votre choix. Cela va créer un repertoire **
 
 ![GitHub téléchargement zip]({{ "/assets/code/code2.jpg" | absolute_url }})
 
-L’installation de l’EDI Arduino a normalement créé un répertoire **Arduino** dans votre dossier personnel. Assurez-vous que ce dossier est vide et copiez le **contenu** du dossier **arduino-variometer-master** dans le dossier **Arduino**.
+L’installation de l’EDI Arduino a normalement créé un répertoire **Arduino** dans votre dossier personnel. Assurez-vous que ce dossier est vide et copiez le **contenu** du dossier **Gnuvario_for_TTGO-T5-master** dans le dossier **Arduino**.
 
 ![GitHub téléchargement zip]({{ "/assets/code/code3.jpg" | absolute_url }})
 ![GitHub téléchargement zip]({{ "/assets/code/code4.jpg" | absolute_url }})

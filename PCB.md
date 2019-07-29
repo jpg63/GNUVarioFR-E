@@ -35,5 +35,6 @@ Les composants
 * Transistor S8050 ou equivalent (2N2222) (ae)
 * Batterie 403070 (ae)
 ![Slide switch]({{ '/assets/componants/battery.jpg' | relative_url }})
-* 4 x Vis à bois 4x20 ou 3.5x20
+* 4 x Vis à bois 3x20
+* Velcro 20mm
 

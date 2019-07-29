@@ -3,7 +3,7 @@ step: 7
 description: Fermeture du boitier
 ---
 
-Avant de fermer le boitier, réaliser les fixations velcro en réalisant une couture en repliant le velcro en 2
+Avant de fermer le boitier, confectionner les fixations velcro en réalisant une couture sur un pli du velcro. Une double épaisseur de votre velcro lui évitera de sortir de la fente.
 {% include tutoimg.md name="20190727_112746b.jpg" %}
 
 Assurez-vous que l'interrupteur est en position OFF et connectez la batterie.

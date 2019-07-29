@@ -34,18 +34,18 @@ Donc vous avez besoin ou vous pouvez obtenir :
 * Une carte MPU9250 ( peut être combinée avec le baromètre ms5611 )
 * Un Haut-Parleur (intégré à la board TTGO-T5)
 * Un écran E-Paper waveshare 1.54'' (intégré à la board TTGO-T5)
-* Un module GPS 
+* Un module GPS (de préférence ATGM336H)
 * Un module lecteur de carte SD (intégré à la board TTGO-T5)
 * Une résistance 270k et 1M pour le diviseur de tension
 * Deux résistances 1k pour le pull-up du MS5611
-* Une résistance et un transistor équivalent à un 2N2222 pour la commande de l'alimentation des cartes
+* Une résistance 1k et un transistor S8050 ou équivalent (2N2222) pour la commande de l'alimentation des cartes
 
 
 
 Câblage du variomètre :
 ---------------------
 
-Vous avez maintenant votre source d'alimentation **5V** qui fournit plus de 3,3 v et une source d'alimentation régulée **3,3 v**. Vous pouvez maintenant connecter tous les composants suivant ce [schéma] ({{"/assets/schematic.pdf" | absolute_url}}) ou le tableau ci-dessous. **Attention** les numéros de broches ne sont valables que pour le TTGO-T5 V1.2.
+Vous avez maintenant votre source d'alimentation **5V** qui fournit plus de 3,3 v et une source d'alimentation régulée **3,3 v**. Vous pouvez maintenant connecter tous les composants suivant ce [schéma]({{"/assets/schematic.pdf" | absolute_url}}) ou le tableau ci-dessous. **Attention** les numéros de broches ne sont valables que pour le TTGO-T5 V1.2.
 
 **The ms5611 and MPU9250 board**
 

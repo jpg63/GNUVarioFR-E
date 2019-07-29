@@ -24,5 +24,5 @@ Vous devez maintenant retirer tous les isolants en plastique des têtes de broch
 Soudez **une** broche de la carte, vérifiez son emplacement et soudez la broche opposée. 
 
 Terminant en Soudant les autres broches. **Soyez très prudent ! N'oubliez pas certaines d'entre elles**.
-{% include tutoimg.md name="20190727_103614b.jpg" %}
+{% include tutoimg.md name="20190727_103109b.jpg" %}
 
