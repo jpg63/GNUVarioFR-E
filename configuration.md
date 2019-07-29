@@ -150,7 +150,8 @@ Avec le taux de chute "moyenné" sur une periode, vous pouvez garder les bips tr
 
 Voici la procédure :
 
-    a) Il vous faut la période de votre GPS ( même si c'est sûrement 1000 ms ). Chargez le sketch "gps-time-analysis_ESP32" puis attendez le fix. Lorsque le GPS s'est bien stabilisé lisez le chiffre en deuxième position à l'écran. C'est la période du GPS.
+    a) Il vous faut la période de votre GPS 
+		  ( même si c'est sûrement 1000 ms ). Chargez le sketch "gps-time-analysis_ESP32" puis attendez le fix. Lorsque le GPS s'est bien stabilisé lisez le chiffre en deuxième position à l'écran. C'est la période du GPS.
 
     b) Dans HardwareConfig.h entrez votre periode du GPS :
 
@@ -160,7 +161,8 @@ Voici la procédure :
 
 		#define VARIOMETER_DISPLAY_INTEGRATED_CLIMB_RATE
 
-	d) Vous pouvez alors régler la durée de l'intégration ( ici 5s ) et la fréquence d'affichage ( ici 2 affichage par secondes )
+	d) Vous pouvez alors régler la durée de l'intégration 
+	    ( ici 5s ) et la fréquence d'affichage ( ici 2 affichage par secondes )
 
 		#define VARIOMETER_INTEGRATION_TIME 5000
 		#define VARIOMETER_INTEGRATION_DISPLAY_FREQ 2.0
@@ -173,7 +175,7 @@ Voici la procédure :
 
 		1: Affichage de la finesse
 		2: Affichage du taux de chute moyen
-		3: Affichage des 2 informations en alternance dans la zone à droite de l'affiche du vario
+		3: Affichage des 2 informations en alternance 
 
 
 8) Télécharger le code du variomètre
