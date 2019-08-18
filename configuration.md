@@ -5,7 +5,7 @@ title: Configuration
 
 Avant de configurer le variomètre, vous devez savoir comment [compiler le code]({{ site.baseurl }}{% link code.md %}). Assurez-vous de bien connaître l'IDE Arduino.
 
-La configuration du variomètre est séparé en 2 parties
+La configuration du variomètre est séparée en 2 parties.
 
 1) La configuration matérielle
 --------------------------------------
@@ -20,12 +20,12 @@ Pour "commenter" une ligne ajouter "//" au début. Cela désactive l'option.
 2) La configuration logiciel
 --------------------------------------
 
-Il existe 2 methodes pour configurer votre variomètre avec vos parametres personnels
+Il existe 2 méthodes pour configurer votre variomètre avec vos paramètres personnels
 
 a) Le fichier SETTINGS.TXT sur la carte SD
 
 Le fichier SETTINGS.TXT doit être placé à la racine de la carte SD. Ce fichier contient l'ensemble des paramètres utilisateurs permettant de personnaliser le fonctionnement du GnuVario-ESP32
-Chaque parametre est encadré de crochets et la valeur se trouve après le signe =. Il est impératif de concerver la syntaxe de se fichier. Ce fichier peut être modifié sans recompilation du code.
+Chaque paramètre est encadré de crochets et la valeur se trouve après le signe =. Il est impératif de conserver la syntaxe de ce fichier. Ce fichier peut être modifié sans recompilation du code.
 
 [SETTINGS.TXT](https://github.com/jpg63/Gnuvario_for_TTGO-T5/blob/master/Sources/Stable%20Code/Gnuvario-E/SETTINGS.TXT)
 
@@ -36,13 +36,7 @@ Si vous ne souhaitez pas utiliser de carte SD, vous pouvez modifier le fichier l
 [libraries/VarioSettings/VarioSettings.h](https://github.com/jpg63/Gnuvario_for_TTGO-T5/blob/master/Sources/Stable%20Code/libraries/VarioSettings/VarioSettings.h)
 
 
-3) Vérification de la configuration matérielle
---------------------------------------
-
-Avant de commencer à installer le logiciel, vous devez **vous assurer que la configuration matérielle correspond à votre configuration**. Vous pouvez trouver quelques conseils dans la page [Schema]({{ site.baseurl }}{% link schematics.md %}).
-
-
-4) Enregistrez vos informations personnelles
+3) Enregistrez vos informations personnelles
 ----------------------------------
 
 Certains paramètres particuliers doivent être renseignés. Ces paramètres sont vos informations personnelles. 
@@ -50,7 +44,7 @@ Certains paramètres particuliers doivent être renseignés. Ces paramètres son
 Ainsi, dans *SETTINGS.TXT*, définissez votre **Nom du pilote** et **Nom de la voile**.
 
 
-5) Si nécessaire, calibrez l'accéléromètre
+4) Si nécessaire, calibrez l'accéléromètre
 ----------------------------------------
 
 Si vous intégrez un accéléromètre, vous devez le calibrer.
@@ -74,10 +68,10 @@ Sous Linux, lancez simplement :
 
 Cela montrera les paramètres que vous devez remplacer dans votre fichier *HardwareConfig.h*.
 
-6) Liste des paramètres personnalisables
+5) Liste des paramètres personnalisables
 -----------------------------
 
-Disponible dans le fichier *SETTINGS.TXT*, il est possible de personnaliser le fonctionnement du GnuVario
+Disponible dans le fichier *SETTINGS.TXT*, il est possible de personnaliser le fonctionnement du GnuVario.
 
 Voici les paramètres modifiables les plus importants et leurs descriptions
 
@@ -85,7 +79,7 @@ Voici les paramètres modifiables les plus importants et leurs descriptions
 Volume des Bips, valeur entre 0 et 10, 10 étant le volume maximum
 
 [VARIOMETER_TIME_ZONE] 
-Definit la zone horaire UTC (+2) en été (+1) en hivers 
+Definit la zone horaire UTC (+2) en été (+1) en hiver 
 
 [VARIOMETER_SINKING_THRESHOLD] 
 Seuil de descente
@@ -141,7 +135,7 @@ fréquence d'affichage du taux de chute
 		2: Affichage du taux de chute moyen
 		3: Affichage des 2 informations en alternance dans la zone à droite de l'affiche du vario
 
-7) Configuration taux de chute moyen
+6) Configuration taux de chute moyen
 -----------------------------
 
 Si vous souhaitez utiliser l'affichage du taux de chute moyen, suivez cette procèdure
@@ -167,7 +161,7 @@ Voici la procédure :
 		#define VARIOMETER_INTEGRATION_TIME 5000
 		#define VARIOMETER_INTEGRATION_DISPLAY_FREQ 2.0
 
-	Ces paramètres sont aussi utilisé pour la finesse.
+	Ces paramètres sont aussi utilisés pour la finesse.
 
 	e) Si vous voulez afficher le taux de chute en alternance avec la finesse
 
@@ -178,12 +172,12 @@ Voici la procédure :
 		3: Affichage des 2 informations en alternance 
 
 
-8) Télécharger le code du variomètre
+7) Téléverser le code du variomètre
 -----------------------------
 
-Vous pouvez maintenant définir tous les paramètres souhaités dans *SETTINGS.TXT*. 
+Après avoir copié le fichier *SETTINGS.TXT* sur la carte SD. 
 
-Compiler et de télécharger le schéma *GnuVario-E*.
+Vous pouvez compiler et téléverser le schéma *GnuVario-E.ino*.
 
 Vous avez terminé !
 

@@ -22,7 +22,3 @@ Après **n'hésitez pas à chauffer suffisamment la soudure**. Les composants ut
 1. Appliquez juste une petite quantité de soudure pour faire le contact entre les deux parties.
 2. Réchauffez à nouveau la soudure **au moins 2 secondes** avant d'appliquer la quantité de soudure appropriée.
 
-Portez une attention particulière aux connexions de plan de masse telles que:
-{% include tutoimg.md name="groundpin.JPEG" %}
-Ils sont très difficiles à chauffer en raison de la dissipation à haute température. N'hésitez pas à laisser le fer à souder jusqu'à 10 secondes.
-
