@@ -4,7 +4,9 @@ description: Soudure du transistor
 ---
 
 Pour terminer votre GnuVario-E, soudez le transistor en suivant la sérigraphie
+{% include tutoimg.md name="20190818_100457a.jpg" %}
 {% include tutoimg.md name="20190727_112700.jpg" %}
+{% include tutoimg.md name="20190818_101535a.jpg" %}
 
 Si vous le souhaitez, vous pouvez tester le variomètre maintenant. **Mais suivez ces étapes!**
 1. Connectez la batterie.
