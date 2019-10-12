@@ -4,7 +4,7 @@ layout: page
   <div class="tuto_summary">
     <h2>Résumé du tutoriel de construction</h2>
     <ul>
-      <li>{% if page.description == "Introduction" %}<strong>{% endif %}<a href="{{ site.baseurl }}{% link hardware.md %}">Introduction</a>{% if page.description == "Introduction" %}</strong>{% endif %}</li>
+      <li>{% if page.description == "Introduction" %}<strong>{% endif %}<a href="{{ site.baseurl }}{% link 3-hardware.md %}">Introduction</a>{% if page.description == "Introduction" %}</strong>{% endif %}</li>
       {%- assign tuto_steps = site.tutorials | sort : 'step' -%}
       {%- for tuto_step in tuto_steps -%}
         {%- if forloop.first -%}
@@ -36,7 +36,7 @@ layout: page
       {%- if prev_step -%}
       <a href="{{ prev_step.url | relative_url }}" class="tuto_previous">< Precedent</a>
       {%- endif -%}
-      <a href="{{ site.baseurl }}{% link hardware.md %}" class="tuto_home">Debut</a>
+      <a href="{{ site.baseurl }}{% link 3-hardware.md %}" class="tuto_home">Debut</a>
       {%- if next_step -%}
       <a href="{{ next_step.url | relative_url }}" class="tuto_next">Suivant ></a>
       {%- else -%}
