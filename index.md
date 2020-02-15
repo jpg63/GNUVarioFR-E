@@ -3,7 +3,7 @@ layout: page
 title: Description
 linkdesc: Voir le projet
 linkmsg: GO !
-linktarget: "https://github.com/prunkdump/GNUVario-TTGO-T5"
+linktarget: "https://github.com/Ratamuse/Site-web-GNUvario"
 ---
 Le projet GNUVario-E est un effort collaboratif visant à créer un variomètre utilisant du matériel et un logiciel libres et ouverts.
 
@@ -30,3 +30,4 @@ Liens :
 * [GitHub](https://github.com/prunkdump/GNUVario-TTGO-T5)
 * [Forum](http://www.parapentiste.info/forum/developpements-hardware-software/diy-gnuvario-variometre-opensource-openhardware-arduino-t48334.0.html;new;topicseen#new)
 * [Site Web](https://prunkdump.github.io/GNUVario-TTGO-T5-website/)
+
