@@ -3,7 +3,7 @@ layout: page
 title: Description
 linkdesc: Voir le projet
 linkmsg: GO !
-linktarget: "https://github.com/Ratamuse/Site-web-GNUvario"
+linktarget: "https://jpg63.github.io/GNUVarioFR-E/"
 ---
 Le projet GNUVario-E est un effort collaboratif visant à créer un variomètre utilisant du matériel et un logiciel libres et ouverts.
 
