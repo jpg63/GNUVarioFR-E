@@ -8,17 +8,17 @@ La méthode simple : télécharger le fichier zip
 
 Le code source peut être téléchargé directement sous forme de fichier zip sur [GitHub](https://github.com/prunkdump/GNUVario-TTGO-T5). Il suffit de cliquer sur **Clone or download** and **Download zip**.
 
-![GitHub download zip]({{ "/assets/code/code1.jpg" | absolute_url }})
+![GitHub download zip]({{ "/assets/code_img/code1.jpg" | absolute_url }})
 
 Extrayez le zip à l'emplacement de votre choix. Cela va créer un répertoire **Gnuvario-TTGO-T5-master**.
 
-![GitHub téléchargement zip]({{ "/assets/code/code2.jpg" | absolute_url }})
+![GitHub téléchargement zip]({{ "/assets/code_img/code2.jpg" | absolute_url }})
 
 L’installation de l’IDE Arduino a normalement créé un répertoire **Arduino** dans votre dossier personnel.<BR> Assurez-vous que ce dossier est vide et copiez les dossiers  Sources\Beta Code\Gnuvario-E et Sources\Beta Code\libraries du dossier **Gnuvario-TTGO-T5-master** dans le dossier **Arduino**.
 
 **IMPORTANT** : Il ne doit y avoir dans ce dossier Arduino que les fichiers / librairies du projet Gnuvario-E.
 
-![GitHub téléchargement zip]({{ "/assets/code/dossierRootArduino.jpg" | absolute_url }})
+![GitHub téléchargement zip]({{ "/assets/code_img/dossierRootArduino.jpg" | absolute_url }})
 
 La méthode avancée: utiliser Git
 -----------------------------

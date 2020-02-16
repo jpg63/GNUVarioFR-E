@@ -9,17 +9,17 @@ linktarget: "/assets/pcb/GnuVarioTTGOT5V2 JLCPCB_all.zip"
 Le SCHEMA
 -----------------------------------------
 
-![Le Schema du GNUVario]({{ '/assets/schematic.jpg' | relative_url }})
+![Le Schema du GNUVario]({{ '/assets/schematic/schematic.jpg' | relative_url }})
 
-Il peut être téléchargés [ici]({{ '/assets/schematic.pdf' | relative_url }}).
+Il peut être téléchargés [ici]({{ '/assets/schematic/schematic.pdf' | relative_url }}).
 
 Le PCB
 -----------------------------------------
 
 Version : 2.0
 
-Le projet GNUVario fourni les fichiers du circuit imprimé pour vous aider à construire le variomètre.![Le PCB Back du GNUVario]({{ '/assets/PCB_V2_0_back.jpg' | relative_url }})
-![Le PCB Front du GNUVario]({{ '/assets/PCB_V2_0_front.jpg' | relative_url }})
+Le projet GNUVario fourni les fichiers du circuit imprimé pour vous aider à construire le variomètre.![Le PCB Back du GNUVario]({{ '/assets/pcb/PCB_V2_0_back.jpg' | relative_url }})
+![Le PCB Front du GNUVario]({{ '/assets/pcb/PCB_V2_0_front.jpg' | relative_url }})
 
 Ils peuvent être téléchargé [ici]({{ '/assets/pcb/GnuVarioTTGOT5V2 JLCPCB_all.zip' | relative_url }}).
 
