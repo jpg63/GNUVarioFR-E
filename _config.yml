@@ -32,16 +32,22 @@ github_username:  jpg63
 #github_username:  ratamuse
 
 collections:
-  - logiciel
-  - code
+  - materiel
   - slicer
   - tutorials
+  - logiciel
+  - code
+  - config
   - manuel
   - faq
 collections:
+  materiel:
+    output: true
   logiciel:
     output: true
   code:
+    output: true
+  config:
     output: true
   slicer:
     output: true
@@ -54,6 +60,12 @@ collections:
 defaults:
   - scope:
       path: ""
+      type: "materiel"
+    values:
+      layout: materiel
+      title: Materiel
+  - scope:
+      path: ""
       type: "logiciel"
     values:
       layout: logiciel
@@ -64,6 +76,12 @@ defaults:
     values:
       layout: code
       title: Code
+  - scope:
+      path: ""
+      type: "config"
+    values:
+      layout: config
+      title: Configuration
   - scope:
       path: ""
       type: "slicer"
