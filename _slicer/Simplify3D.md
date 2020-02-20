@@ -1,5 +1,6 @@
 ---
 step: 1
+title: Boîtier3D
 description: Imprimer son boîtier 
 ---
 

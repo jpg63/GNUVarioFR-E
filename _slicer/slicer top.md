@@ -1,5 +1,6 @@
 ---
 step: 3
+title: Boîtier3D
 description: Boîtier supérieur
 ---
 [Télécharger le profil]({{ 'assets/fichiers/profils3Dprinter/Geeetech_A20M_boitier_haut.fff' | relative_url }})

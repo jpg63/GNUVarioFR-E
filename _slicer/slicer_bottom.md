@@ -1,5 +1,6 @@
 ---
 step: 2
+title: Boîtier3D
 description: Boîtier inférieur
 ---
 
