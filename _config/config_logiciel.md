@@ -25,4 +25,4 @@ Cette méthode est réservée aux utilisateurs confirmés qui souhaite utiliser 
 
 Si vous ne souhaitez pas utiliser de carte SD, vous pouvez modifier le fichier libraries/VarioSettings/VarioSettings.h afin de personnaliser votre vario. L'utilisation de ce fichier nécessite la recompilation du code
 
-[libraries/VarioSettings/VarioSettings.h](https://github.com/jpg63/Gnuvario_for_TTGO-T5/blob/master/Sources/Stable%20Code/libraries/VarioSettings/VarioSettings.h)
+[libraries/VarioSettings/VarioSettings.h](https://github.com/prunkdump/GNUVario-TTGO-T5/tree/master/Sources/Beta%20Code/libraries/VarioSettings/VarioSettings.h)

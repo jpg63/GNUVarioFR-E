@@ -13,17 +13,29 @@ Il existe plusieurs version de firmware qui correspondent aux différentes versi
    
 -- Les versions pour l'écran 1,54''     --
 
-la version [Stable]({{ 'assets/fichiers/firmware154/Beta/Gnuvario-E.ino.esp32.bin' | relative_url }})    
-la version de [Développement]({{ 'assets/fichiers/firmware154/Stable/Gnuvario-E.ino.esp32.bin' | relative_url }})  
+la version {% include lienfichier.md name="Stable" lien="update/Gnuvario154.bin" %}     
+la version de {% include lienfichier.md name="Développement" lien="update/Gnuvario154b.bin" %}     
 
 -- Les versions pour l'écran 2.90'' en paysage   --
 
-la version [Stable]({{ 'assets/fichiers/firmware290/Beta/Gnuvario-E.ino.esp32.bin' | relative_url }})    
-la version de [Développement]({{ 'assets/fichiers/firmware290/Stable/Gnuvario-E.ino.esp32.bin' | relative_url }})  
+la version {% include lienfichier.md name="Stable" lien="update/Gnuvario290.bin" %}      
+la version de {% include lienfichier.md name="Développement" lien="update/Gnuvario290b.bin" %}     
+
+-- Les versions pour l'écran 2.90'' en portrait   --
+
+la version {% include lienfichier.md name="Stable" lien="update/Gnuvario291.bin" %}    
+la version de {% include lienfichier.md name="Développement" lien="update/Gnuvario291b.bin" %}       
 
 **La carte SD**     
 
 La carte SD embarque un site web et des fichiers de configuration. Il existe une arborescence pour la version stable et une pour la version beta
 
-RootSD pour la version [Stable du Firmware]({{ 'assets/fichiers/RootSD/Stable/RootSD.zip' | relative_url }})    
-RootSD pour la version [Beta du Firmware]({{  'assets/fichiers/RootSD/Beta/RootSD.zip' | relative_url }})     
+RootSD pour la version {% include lienfichier.md name="Stable du Firmware" lien="update/RootSD/Stable/RootSD.zip" %}     
+RootSD pour la version {% include lienfichier.md name="Beta du Firmware" lien="update/RootSD/Beta/RootSD.zip" %}    
+
+**Le dossier www**     
+
+Sur la carte SD, le dossier www contient les fichier necessaire au fonctionnement du site web embarqué. Il existe une version pour la version stable et une pour la version beta
+
+www pour la version {% include lienfichier.md name="Stable du Firmware" lien="update/www/Stable/www.zip" %}     
+www pour la version {% include lienfichier.md name="Beta du Firmware" lien="update/www/Beta/www.zip" %}    
