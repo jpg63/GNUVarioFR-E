@@ -31,3 +31,6 @@ Liens :
 * [Forum](http://www.parapentiste.info/forum/developpements-hardware-software/diy-gnuvario-variometre-opensource-openhardware-arduino-t48334.0.html;new;topicseen#new)
 * [Site Web](https://prunkdump.github.io/GNUVario-TTGO-T5-website/)
 
+Version :
+---------
+* Site web 1.06f
