@@ -20,7 +20,7 @@ ou
 ou    
     
 * Batterie 2000mAh (ae, 103450)
-{% include materielimg.md name="battery_2000.jpg" %}
+{% include materielimg.md name="battery2000.jpg" %}
 		
 * 4 x Vis à bois 3x20
    
