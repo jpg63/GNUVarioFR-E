@@ -4,7 +4,7 @@ title: Materiel
 description: Introduction
 linkdesc: Les fichiers de réalisation du PCB
 linkmsg: Trouver !
-linktarget: "http://gnuvario-e.yj.fr/fichiers/PCB/GnuVarioTTGOT5V2_JLCPCB_all.zip"
+linktarget: "http://gnuvario-e.yj.fr/fichiers/PCB/GnuVarioE_JLCPCB.zip"
 ---
 
 Ce chapitre va présenter le matériel nécessaire à la fabrication du Gnuvario-E

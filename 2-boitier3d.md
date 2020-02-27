@@ -2,9 +2,6 @@
 layout: slicer
 title: Boîtier3D
 description: Introduction
-linkdesc: Le boîtier 3D du GNUVario
-linkmsg: Trouver !
-linktarget: "http://gnuvario-e.yj.fr/3D_case.zip"
 ---
 
 Le GNUVario-E utilise un boîtier imprimable en 3D.

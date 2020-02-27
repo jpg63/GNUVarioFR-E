@@ -37,5 +37,17 @@ RootSD pour la version {% include lienfichier.md name="Beta du Firmware" lien="u
 
 Sur la carte SD, le dossier www contient les fichier necessaire au fonctionnement du site web embarqué. Il existe une version pour la version stable et une pour la version beta
 
-www pour la version {% include lienfichier.md name="Stable du Firmware" lien="update/www/Stable/www.zip" %}     
-www pour la version {% include lienfichier.md name="Beta du Firmware" lien="update/www/Beta/www.zip" %}    
+-- Les versions pour l'écran 1,54''     --
+
+www pour la version {% include lienfichier.md name="Stable du Firmware" lien="dl-web/Gnuvario154" %}     
+www pour la version {% include lienfichier.md name="Beta du Firmware" lien="dl-web/Gnuvario154b" %}    
+
+-- Les versions pour l'écran 2.90'' en paysage   --
+
+www pour la version {% include lienfichier.md name="Stable du Firmware" lien="dl-web/Gnuvario290" %}     
+www pour la version {% include lienfichier.md name="Beta du Firmware" lien="dl-web/Gnuvario290b" %}    
+
+-- Les versions pour l'écran 2.90'' en portrait   --
+
+www pour la version {% include lienfichier.md name="Stable du Firmware" lien="dl-web/Gnuvario291" %}     
+www pour la version {% include lienfichier.md name="Beta du Firmware" lien="dl-web/Gnuvario291b" %}    
