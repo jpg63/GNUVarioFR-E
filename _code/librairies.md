@@ -50,3 +50,15 @@ VarioLog :                Gestion des fichiers de log
 esp32FOTA2 :              Gestion des mises à jours via internet    
 utility :                 Fonctions diverses     
 VarioStat :               Gestion des statistiques de vol        
+
+**Lien vers les librairies utilisées**     
+
+[Adafruit-GFX-Library](https://github.com/adafruit/Adafruit-GFX-Library/)            
+[ArduinoJson](https://github.com/bblanchon/ArduinoJson)      
+[ArduinoTrace](https://github.com/bblanchon/ArduinoTrace)       
+[EepromHAL](https://github.com/jpg63/EepromHAL)      
+[esp32FOTA](https://github.com/chrisjoyce911/esp32FOTA)        
+[GxEPD2](https://github.com/ZinggJM/GxEPD2)       
+[SdcardHAL](https://github.com/jpg63/SdcardHAL)          
+[SdFat](https://github.com/adafruit/SdFat)       
+  
