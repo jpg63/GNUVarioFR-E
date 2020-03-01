@@ -1,6 +1,6 @@
 ---
 layout: materiel
-title: Materiel
+title: Matériel
 description: Introduction
 linkdesc: Les fichiers de réalisation du PCB
 linkmsg: Trouver !

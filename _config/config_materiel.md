@@ -13,5 +13,5 @@ Commencez par vérifier les fichiers. Il y a un fichier commun à tous les micro
 
 Pour "commenter" une ligne ajouter "//" au début. Cela désactive l'option.
 
-Normalement, vous ne devriez avoir à adapter que le type d'écran, si vous utiliser un écran de taille différente de 1.54" : c'est la directive **VARIOSCREEN_SIZE** dans le fichier HardwareConfig.h.
+Normalement, si vous utiliser un écran de taille différente de 1.54", vous ne devriez avoir à adapter que le type d'écran : c'est la directive **VARIOSCREEN_SIZE** dans le fichier HardwareConfig.h.
 

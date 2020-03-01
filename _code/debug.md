@@ -3,7 +3,7 @@ step: 7
 description: Le debug
 ---
 
-Ce chapitre va décrire les methodes de debuggage utilisées dans le code du Gnuvario-E
+Ce chapitre va décrire les méthodes de debuggage utilisées dans le code du Gnuvario-E
 
 Avec le temps, le système d'affichage des informations de debuggage à évolué 
 
@@ -30,10 +30,10 @@ Les messages s'affiche sur le moniteur série en ajoutant des lignes dans le cod
 
 **La méthode 2**
 
-La methode 2 utilise aussi le fichier DebugConfig.h mais l'affiche est enrichi du nom
+La méthode 2 utilise aussi le fichier DebugConfig.h mais l'affiche est enrichie du nom
 du fichier source, du nom des variables et de la ligne   
      
-Au début de chaque fichier source il faut déclaré l'utilisation des fonctions de débug     
+Au début de chaque fichier source il faut déclarer l'utilisation des fonctions de débug     
 
 #include <DebugConfig.h>       
        
@@ -49,18 +49,18 @@ Au début de chaque fichier source il faut déclaré l'utilisation des fonctions
 Ensuite il  sera possible d'utiliser les fonctions :     
 
 TRACE();        
-Affiche sur le moniteur serie le numero de ligne, le nom du fichier   
+Affiche sur le moniteur série le numéro de ligne, le nom du fichier   
       
 DUMP(someValue);       
-Affcihe sur le moniteur serie la variable ainsi que le fichier et la ligne      
+Affiche sur le moniteur série la variable ainsi que le fichier et la ligne      
       
 SDUMP(someText);         
-Affiche sur le moniteur serie le texte ainsi que le fichier et la ligne       
+Affiche sur le moniteur série le texte ainsi que le fichier et la ligne       
        
 **La méthode 3**
              
-La methode 3 enregistre les informations de débuggage dans le fichier variolog.log    
-Le fichier debug.cfg décrit dans la section "configuration" est utiliser pour selectionner 
+La méthode 3 enregistre les informations de débuggage dans le fichier variolog.log    
+Le fichier debug.cfg décrit dans la section "configuration" est utilisé pour selectionner 
 les messages à afficher    
           
 Il faudra utiliser la librairie variolog.h     
@@ -74,7 +74,7 @@ DUMPLOG(type, module, variable)
 Enregistre dans le fichier de log la variable, le fichier et la ligne        
 
 MESSLOG(type, module, Text)             
-Enregistre dans le fichier de log un message avac la fichier et la ligne        
+Enregistre dans le fichier de log un message avec le fichier et la ligne        
 
 INFOLOG(Text)                            
 Enregistre dans le fichier de log un texte      

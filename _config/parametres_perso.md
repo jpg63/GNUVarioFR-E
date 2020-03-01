@@ -217,7 +217,7 @@ défaut : 5
 
 ### log.cfg #
 
-Ce fichier contient les valeurs de paramètrage du debuggage.
+Ce fichier contient les valeurs de paramétrage du debuggage.
 
 **LOG_ENABLE**   
 défaut : 1    
@@ -225,7 +225,7 @@ Activation du debugger
      
 **LOG_SERIAL_ENABLE**    
 défaut : 1         
-Activation des messages sur la port serie      
+Activation des messages sur la port série      
      
 **LOG_SD_ENABLE**      
 défaut : 1      

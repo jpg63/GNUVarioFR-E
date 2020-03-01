@@ -5,11 +5,11 @@ description: Architecture
 
 Voici la description générale du logiciel du Gnuvario-E
 
-Pour fonctionner le Gnuvario-E a besoin d'un firmware et d'une carte SD avec une organisation particilère
+Pour fonctionner le Gnuvario-E a besoin d'un firmware et d'une carte SD avec une organisation particulère
 
 **Le Firmware**      
    
-Il existe plusieurs version de firmware qui correspondent aux différentes versions d'écran et aux versions beta ou stable
+Il existe plusieurs versions de firmware qui correspondent aux différentes versions d'écran et aux versions beta ou stable
    
 -- Les versions pour l'écran 1,54''     --
 
@@ -35,7 +35,7 @@ RootSD pour la version {% include lienfichier.md name="Beta du Firmware" lien="u
 
 **Le dossier www**     
 
-Sur la carte SD, le dossier www contient les fichier necessaire au fonctionnement du site web embarqué. Il existe une version pour la version stable et une pour la version beta
+Sur la carte SD, le dossier www contient les fichiers nécessaires au fonctionnement du site web embarqué. Il existe une version pour la version stable et une pour la version beta.
 
 -- Les versions pour l'écran 1,54''     --
    

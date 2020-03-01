@@ -1,6 +1,6 @@
 ---
 step: 1
-description: Le schema
+description: Le schéma
 ---
 
 ![Le Schema du GNUVario-E]({{ '/assets/schematic/schematic.jpg' | relative_url }})

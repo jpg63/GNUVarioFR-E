@@ -18,12 +18,12 @@ Caractéristiques :
 * Communication Bluetooth avec appareil externe (à venir)
 * Niveau de batterie 
 * Mise à jour du vario en Wifi
-* Paramètrage du vario via une page Web
+* Paramétrage du vario via une page Web
 * Récupération des vols en Wifi 
 * Multi écran
-* Parametrage du son par courbe (à venir)
-* Parametrage des ecrans (à venir)
-* Mise en veille prolongé
+* Paramétrage du son par courbe (à venir)
+* Paramétrage des écrans (à venir)
+* Mise en veille prolongée
 * 3 boutons 
 
 Liens :

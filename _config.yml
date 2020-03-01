@@ -63,7 +63,7 @@ defaults:
       type: "materiel"
     values:
       layout: materiel
-      title: Materiel
+      title: Matériel
   - scope:
       path: ""
       type: "logiciel"

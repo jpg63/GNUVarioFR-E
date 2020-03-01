@@ -10,10 +10,11 @@ Version 0.7
  - Modification du système d'acquisition des données
  - Amélioration de l'affichage
  - Nouveau site web embarqué 
- - Ajout de la configuration du delai d'affichage de l'écran de stat au démmarage
+ - Ajout de la configuration du délai d'affichage de l'écran de stat au démarrage
  - Ajout Update via internet                                          
  - Ajout affichage du cap, longitude, latitude sur l'écran 2                       
  - Suppression de l'affichage de la température
+ - Calibration des accéléromètres
 	
 Version 0.1 à 0.6  		
 - Vario précis avec capteur de pression et accéleromètres   

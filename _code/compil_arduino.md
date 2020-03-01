@@ -13,7 +13,7 @@ Lancez maintenant l'IDE Arduino et ouvrez l'esquisse que vous souhaitez compiler
 
 Dans le menu **Outils**, **assurez-vous de choisir la bonne carte**. La plus classique de ce projet est l'**ESP32 Dev Module**.
 
-et selectionner partition scheme : **Minimal SPIFFS (1,9 MB APP with OTA / 180 KB SPIFFS)**
+et sélectionner partition scheme : **Minimal SPIFFS (1,9 MB APP with OTA / 180 KB SPIFFS)**
 
 Toujours dans le menu **Outils**, choisissez le port série correspondant au vario. 
 

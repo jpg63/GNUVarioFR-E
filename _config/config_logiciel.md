@@ -9,7 +9,7 @@ a) La page Web
 
 Le plus simple pour configurer votre GnuVario-E est d'utiliser la page web embarquée et le mode Wifi.  
 Ceci va mettre à jour automatiquement les fichiers de configuration sur la sdcard.
-Cette fonctionnalitée est décrite dans le [manuel d'utilisation]({{ site.baseurl }}{% link 7-manuel.md %}).
+Cette fonctionnalité est décrite dans le [manuel d'utilisation]({{ site.baseurl }}{% link 7-manuel.md %}).
 
 b) Les fichiers de configuration sur la carte SD.
 
@@ -21,7 +21,7 @@ Ils permettent de configurer le GNUVario sans avoir à recompiler le code.
 
 c) Le fichier VarioSettings.h
 
-Cette méthode est réservée aux utilisateurs confirmés qui souhaite utiliser du matériel non standard ou recompiler le code
+Cette méthode est réservée aux utilisateurs confirmés qui souhaitent utiliser du matériel non standard ou recompiler le code
 
 Si vous ne souhaitez pas utiliser de carte SD, vous pouvez modifier le fichier libraries/VarioSettings/VarioSettings.h afin de personnaliser votre vario. L'utilisation de ce fichier nécessite la recompilation du code
 

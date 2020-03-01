@@ -3,10 +3,10 @@ step: 2
 description: Le PCB
 ---
 
-Le projet GNUVario fourni les fichiers du circuit imprimé pour vous aider à construire le variomètre.![Le PCB Back du GNUVario]({{ '/assets/pcb/PCB_V2_0_back.jpg' | relative_url }})
+Le projet GNUVario fournit les fichiers du circuit imprimé pour vous aider à construire le variomètre.![Le PCB Back du GNUVario]({{ '/assets/pcb/PCB_V2_0_back.jpg' | relative_url }})
 ![Le PCB Front du GNUVario]({{ '/assets/pcb/PCB_V2_0_front.jpg' | relative_url }})
 
-Ils peuvent être téléchargé {% include lienfichier.md name="ici" lien="fichiers/GnuVarioE_JLCPCB.zip" %}
+Ils peuvent être téléchargés {% include lienfichier.md name="ici" lien="fichiers/GnuVarioE_JLCPCB.zip" %}
 
 Voici les paramètres à donner à votre fabricant de PCB :
 * largeur  : 44 mm

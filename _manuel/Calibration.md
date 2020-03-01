@@ -19,9 +19,9 @@ Allumer le Gnuvario-E
 Passez en mode calibration en appuyant sur le bouton droit au démarrage (au moment de l'écran d'init).          
 Vous avez quelques secondes pour placer le vario à plat et appuyer sur le bouton central.       
 
-**Attender les 3 bips** puis commencé à faire pivoter le vario dans toute les directions     
-Vous devez faire environ 5 à 6 déplacement par face en attendant le bip entre chaque déplacement   
-Plus vous ferez de mesure, plus la calibration sera précise          
+**Attendez les 3 bips** puis commencez à faire pivoter le vario dans toutes les directions     
+Vous devez faire environ 5 à 6 déplacements par face en attendant le bip entre chaque déplacement   
+Plus vous ferez de mesures, plus la calibration sera précise          
 **ATTENTION il est indispensable de n'oublier aucune face**      
 
 A la fin, appuyer sur le bouton gauche du vario pour terminer la calibration. Le vario redémarre.       

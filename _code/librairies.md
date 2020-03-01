@@ -21,14 +21,14 @@ vertaccel :
 **Gestion de l'écran**      
 Adafruit_GFX_Library :    Librairie utilisée pour la gestion de l'écran      
 GxEPD2 :									Librairie de gestion de l'écran E-Paper  
-digit :                   Gestion de l'affichage des champs numeriques  
+digit :                   Gestion de l'affichage des champs numériques  
 varioscreen :             Gestion de l'écran                
   
 **Gestion des paramètres**      
 ArduinoJson :             Librairie de gestion des fichier json     
-HardwareConfig :	        Gestion des paramettres matériels commun           
-HardwareConfigESP32 :	    Gestion des paramettres matériels lié à l'ESP32          
-VarioSetting :            Gestion des paramettres utilisateur          
+HardwareConfig :	        Gestion des paramètres matériels communs           
+HardwareConfigESP32 :	    Gestion des paramètres matériels liés à l'ESP32          
+VarioSetting :            Gestion des paramètres utilisateur          
  
 **Gestion des péripheriques**    
 beeper :                  Gestion du son du vario     
